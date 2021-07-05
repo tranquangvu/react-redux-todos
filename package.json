@@ -22,7 +22,6 @@
     "web-vitals": "^1.0.1"
   },
   "scripts": {
-    "serve": "node server.js",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -30,7 +29,7 @@
     "lint": "eslint \"{src,test}/**/*{.js,.jsx}\"",
     "lint:fix": "eslint \"{src,test}/**/*{.js,.jsx}\" --fix",
     "prettify": "prettier --write **/*.{ts,tsx,js,jsx,json}",
-    "awseb:deploy": "npm run build && npm run serve"
+    "start:prod": "node server.js"
   },
   "browserslist": {
     "production": [
