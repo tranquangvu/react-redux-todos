@@ -3,7 +3,6 @@
     "airbnb",
     "airbnb/hooks",
     "react-app",
-    "react-app/jest",
     "prettier"
   ],
   "plugins": [
@@ -48,6 +47,7 @@
     ],
     "arrow-body-style": "off",
     "react/prop-types": "off",
+    "react/forbid-prop-types": "off",
     "react/require-default-props": "off",
     "react/prefer-stateless-function": "off",
     "react/jsx-props-no-spreading": "off",
